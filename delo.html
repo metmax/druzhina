@@ -7,6 +7,7 @@
         
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="chat.css" />
          
         
     </head>
@@ -43,6 +44,8 @@
             <li><a href="history.html">Историческая справка</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="ekology.html">Экология родного края</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="form_zajav.html">Формы заявлений</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="photo.html">Фото</a></li>
             <li role="separator" class="divider"></li>
@@ -81,8 +84,10 @@
   <ul class="nav nav-tabs" role="tablist">
     <li role="presentation" class="active"><a href="#journal" aria-controls="journal" role="tab" data-toggle="tab">Журнал дежурств</a></li>
     <!--<li role="presentation"><a href="#reid" aria-controls="reid" role="tab" data-toggle="tab">Рейды</a></li>-->
-    <li role="presentation"><a href="#sport" aria-controls="sport" role="tab" data-toggle="tab">Спорт</a></li>
+    
     <li role="presentation"><a href="#track" aria-controls="track" role="tab" data-toggle="tab">Маршрут обхода</a></li>
+    <li role="presentation"><a href="#FAQ" aria-controls="FAQ" role="tab" data-toggle="tab">Вопросы граждан</a></li>
+    <li role="presentation"><a href="#sport" aria-controls="sport" role="tab" data-toggle="tab">Спорт</a></li>
   </ul>
 
   <!-- Tab panes -->
@@ -134,15 +139,217 @@
             <h4>Проводим рейды</h4>
             <p>Рейды совместно с полицией.......</p>
         </div>-->
-        <div role="tabpanel" class="tab-pane" id="sport">
-            <h4>Занимаемся спортом</h4>
-            <p>Спорт спорт спорт....</p>
-        </div>
         <div role="tabpanel" class="tab-pane" id="track">
-            <h4>Патрулируем по маршруту</h4>
+            <h3>Маршрут №1 Новый Оккервиль:</h3>
+            <img src="img/маршрут1.png">
+            <hr>
+            <h3>Маршрут №2 Кудрово:</h3>
+            <img src="img/маршрут2.png">
+            <hr>
+            <h3>Маршрут №3 Янино:</h3>
+            <img src="img/маршрут3.png">
+            <hr>  
+                <p>Маршрут патрулирования.  
+                    <a href="doc/Маршурт дежурств ДНД Заневка.doc" target="_blank">скачать</a>
+                </p>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="FAQ">
+            <h3>Ответы на вопросы граждан</h3>
+            
+<div class="container">
+    <div class="row">
+        <div class="1col-md-6">
+            <div class="panel1 panel1-primary">
+                <div class="panel1-heading">
+                    <!--<span class="glyphicon glyphicon-comment"></span> Chat -->
+                 
+                <div class="panel1-body">
+                    <ul class="chat">
+                        <li class="left clearfix"><span class="chat-img pull-left">
+                            <img src="img/civil-1.jpg" alt="User Avatar" class="img-circle" />
+                        </span>
+                            <div class="chat-body clearfix">
+                                <div class="header">
+                                    <strong class="primary-font">Светлана Мехнина</strong> <small class="pull-right text-muted">
+                                        <span class="glyphicon glyphicon-time"></span>07.03.17 23:05</small>
+                                </div>
+                                <p>
+                                    Доброе время суток! Подскажите, пожалуйста, как составить заявление участковому, по поводу курения соседей около мусоропровода и, куда это заявление отнести участковому?
+                                </p>
+                            </div>
+                        </li>
+                        <li class="right clearfix"><span class="chat-img pull-right">
+                            <img src="img/dnd-chat.jpg" alt="User Avatar" class="img-circle" />
+                        </span>
+                            <div class="chat-body clearfix">
+                                <div class="header">
+                                    <small class=" text-muted"><span class="glyphicon glyphicon-time"></span> 8 мар 2017 в 0:51</small>
+                                    <strong class="pull-right primary-font">Д-н-Д</strong>
+                                </div>
+                                <p>
+                                    Светлана, во вложении образец заявления, а также общие рекомендации ...
+                                </p>
+                            </div>
+                        </li>
+                        <li class="left clearfix"><span class="chat-img pull-left">
+                            <img src="img/civil-2.jpg" alt="User Avatar" class="img-circle" />
+                        </span>
+                            <div class="chat-body clearfix">
+                                <div class="header">
+                                    <strong class="primary-font">Ксения Голубева</strong> <small class="pull-right text-muted">
+                                        <span class="glyphicon glyphicon-time"></span>5 мар 2017 в 19:00</small>
+                                </div>
+                                <p>
+                                    Добрый день! Подскажите пожалуйста, можно ли попросить у вас содействия в борьбе с шумным соседом? Два раза вызывала полицию в связи с ночным шумом, но никто даже не перезвонил и не приехал. Не знаю, куда обращаться, спать хочется.
+                                </p>
+                            </div>
+                        </li>
+                        <!--<li class="left clearfix"><span class="chat-img pull-left">
+                            <img src="img/civil-2.jpg" alt="User Avatar" class="img-circle" />
+                        </span>
+                            <div class="chat-body clearfix">
+                                <div class="header">
+                                    <small class="pull-right text-muted"><span class="glyphicon glyphicon-time"></span> 5 мар 2017 в 19:00</small>
+                                    <strong class="pull-left primary-font">Ксения Голубева</strong>
+                                </div>
+                                <p>
+                                    Добрый день! Подскажите пожалуйста, можно ли попросить у вас содействия в борьбе с шумным соседом? Два раза вызывала полицию в связи с ночным шумом, но никто даже не перезвонил и не приехал. Не знаю, куда обращаться, спать хочется.
+                                </p>
+                            </div>
+                        </li> -->
+                        
+                        <li class="right clearfix"><span class="chat-img pull-right">
+                            <img src="img/dnd-chat.jpg" alt="User Avatar" class="img-circle" />
+                        </span>
+                            <div class="chat-body clearfix">
+                                <div class="header">
+                                    <small class=" text-muted"><span class="glyphicon glyphicon-time"></span> 7 мар 2017 в 15:15</small>
+                                    <strong class="pull-right primary-font">Д-н-Д</strong>
+                                </div>
+                                <p>
+                                    Здравствуйте, Ксения! Позвоните пожалуйста в любой день: СР, ПТ, СБ или ВС после 17 часов по тел. +7(981) 913-22-74. Объясним пошагово, что желательно делать по вопросу шумных соседей.
+Здесь вкратце скажем, что полиция (участковые) переадресовывают все жалобы по шуму в администрацию, то есть, на наш взгляд – уходят от своей работы по закону о тишине, объясняя тем, что с 2013 года с них (с участковых) сняли полномочия выходить на вызовы по шуму соседей. Остается только вызывать полицию по номеру 112.
+Без полиции, к сожалению, у нас запрет заниматься этим вопросом. Но есть уже случаи, когда мы помогали и решали вопросы по шуму соседей. Звоните.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="left clearfix"><span class="chat-img pull-left">
+                            <img src="img/civil-1.jpg" alt="User Avatar" class="img-circle" />
+                        </span>
+                            <div class="chat-body clearfix">
+                                <div class="header">
+                                    <strong class="primary-font">Светлана Мехнина</strong> <small class="pull-right text-muted">
+                                        <span class="glyphicon glyphicon-time"></span>07.03.17 23:05</small>
+                                </div>
+                                <p>
+                                    Доброе время суток! Подскажите, пожалуйста, как составить заявление участковому, по поводу курения соседей около мусоропровода и, куда это заявление отнести участковому?
+                                </p>
+                            </div>
+                        </li>
+                        <li class="right clearfix"><span class="chat-img pull-right">
+                            <img src="img/dnd-chat.jpg" alt="User Avatar" class="img-circle" />
+                        </span>
+                            <div class="chat-body clearfix">
+                                <div class="header">
+                                    <small class=" text-muted"><span class="glyphicon glyphicon-time"></span> 8 мар 2017 в 0:51</small>
+                                    <strong class="pull-right primary-font">Д-н-Д</strong>
+                                </div>
+                                <p>
+                                    Светлана, во вложении образец заявления, а также общие рекомендации ...
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel-footer">
+                    <div class="input-group">
+                        <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                        <span class="input-group-btn">
+                            <button class="btn btn-warning btn-sm" id="btn-chat">
+                                Send</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+            
+           <!-- <div class="media">
+                <div class="media-left">
+                    <a href="https://vk.com/id14005889">
+                        <img class="media-object" src="img/civil-1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Светлана Мехнина 07.03.17 23:05</h4>
+                    <p>Доброе время суток! Подскажите, пожалуйста, как составить заявление участковому, по поводу курения соседей около мусоропровода и, куда это заявление отнести участковому?</p>
+                </div>
+            </div> -->
+       
+                </div>
+        <div role="tabpanel" class="tab-pane" id="sport">
+            <h3>"О Спорт, - ты Мир!"</h3>
+            <h4>Проводятся еженедельные тренеровки по боксу</h4>
+            <p>Тренеровки проходят в Янино по понедельникам и средам в 20:00.</p>
+            <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="img/box-1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="img/box-2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="img/box-3.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <h4>Тренеровки на свежем воздухе</h4>
+            <p></p>
+            <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="img/sport-1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="img/sport-2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="img/sport-5.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="img/sport-7.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="img/sport-4.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="img/sport-6.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--<div role="tabpanel" class="tab-pane" id="track">
+            <h3>Патрулируем по маршруту</h3>
             <img src="img/track2.jpeg">
             <img src="img/track1.jpeg">
-        </div>
+        </div> -->
   </div>
 
             </div>
@@ -151,6 +358,7 @@
             </div>
         </div>
     </div>
+
       
 <nav class="navbar navbar-inverse navbar-fixed-bottom">
     <div class="container-nav-bottom">
